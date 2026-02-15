@@ -68,5 +68,5 @@ This project demonstrates **DOM manipulation**, **event handling**, and **basic 
 
 ## 👤 Author
 
-Your Name  
+P.Harshini
 CodeAlpha Intern
