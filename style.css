@@ -1,0 +1,63 @@
+h1 {
+text-align:center;
+font-family:arial,sans-serif;
+    color: #1e3a8a;
+margin-top: 40px;
+}
+body {
+    margin: 0;
+    background: linear-gradient(135deg, #dbeafe, #e0f2fe);
+    font-family: arial, sans-serif;
+    text-align: center;   /* center heading */
+}
+.calculator {
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    margin: 30px auto;   /* center horizontally */
+}
+#display {
+    width: 100%;          /* full width */
+    font-size: 24px;      /* bigger font */
+    padding: 10px;        /* space inside */
+    margin-bottom: 15px;  /* space below display */
+    text-align: right;    /* numbers on right */
+    border-radius: 10px;  /* rounded border */
+    border: none;         /* optional clean look */
+    box-sizing: border-box;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;   /* spacing between buttons */
+}
+button {
+    height: 55px;           /* same height */
+    width: 100%;            /* same width */
+    font-size: 18px;
+    border-radius: 10px;    /* rounded corners */
+    border: none;
+    cursor: pointer;        /* pointer on hover */
+    background: white;
+    transition: 0.2s;
+}
+button:hover {
+    background: #e5e5e5;
+    transform: scale(1.05);
+}
+.clear {
+    background: #ff6b6b;
+    color: white;
+}
+
+.operator {
+    background: #4dabf7;
+    color: white;
+}
+
+.equal {
+    background: #51cf66;
+    color: white;
+}
